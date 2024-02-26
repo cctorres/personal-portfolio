@@ -1,0 +1,78 @@
+.side-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.personal-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-resume img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: right center;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.personal-resume h1 {
+    color: var(--contrast-color);
+}
+
+.side-component .menu {
+    width: 100%;
+}
+
+.side-component .menu ul {
+    list-style-type: none;
+    color: var(--text-color);
+    padding: 0;
+    width: 100%;
+}
+
+.side-component .menu ul li a{
+    position: relative; 
+    display: flex;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    border-left: 2px solid var(--text-color);
+    padding-left: 20px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.side-component .menu ul li a::before {
+    content: ""; 
+    height: 2px; 
+    width: 10px; 
+    position: absolute;
+    left: 0px;
+    background-color: var(--text-color); 
+}
+
+.side-component .menu ul .active a::before {
+    background-color: var(--contrast-color);
+    height: 5px; 
+}
+
+.side-component .menu ul .active a {
+    font-size: 24px;
+    color: var(--contrast-color);
+    opacity: 1;
+}
+
+.side-component .logos svg {
+    fill: var(--text-color);
+    height: 50px;
+}
+
+

@@ -1,0 +1,39 @@
+.main-component {
+    overflow-y: scroll;
+}
+
+.section {
+    height: 90vh;
+    padding: 20px 5px;
+}
+
+.section a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--acent-color);
+    width: 150px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.section a svg {
+    height: 10px;
+    width: 10px;
+    fill: var(--text-color);
+    margin-left: 5px;
+}
+
+.section a::after {
+    content: "↗";
+    margin-left: 5px;
+}
+
+.section a:hover {
+    font-weight: 700;
+}
