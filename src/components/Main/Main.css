@@ -14,7 +14,7 @@
     align-items: center;
     text-decoration: none;
     color: var(--text-color);
-    background-color: var(--acent-color);
+    border: 2px solid var(--acent-color);
     width: 150px;
     height: 30px;
     font-weight: 600;
@@ -36,4 +36,6 @@
 
 .section a:hover {
     font-weight: 700;
+    background-color: var(--acent-color);
+    transition: ease-in 0.2s;
 }

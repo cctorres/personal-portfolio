@@ -4,7 +4,6 @@ function Experience() {
 
     return (
         <div className="experience-content section" id="experience">
-            <h1>Experience</h1>
             <div className='exprience-items'>
                 <div className="experience-item">
                     <h3>2022 - Present</h3>
@@ -24,7 +23,7 @@ function Experience() {
                 </div>
             </div>
             <div className='technologies'>
-                <h2>Technologies</h2>
+                <h2>Technologies expertise</h2>
                 <div>
                     <p>Adobe Commerce</p>
                     <p>Magento</p>
@@ -35,7 +34,13 @@ function Experience() {
                     <p>Git</p>
                 </div>
             </div>
-            <a href="https://drive.google.com/file/d/16c2mjFgXio7HwBBhp4MqYX8ujbej2Qlg/view" target="_blank" rel="noreferrer noopener">See full CV</a>
+            <div className='technologies'>
+                <h2>Technologies exploration</h2>
+                <div>
+                    <p>Typescript</p>
+                    <p>Marketo</p>
+                </div>
+            </div>
         </div>
     );
 }

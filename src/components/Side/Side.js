@@ -24,7 +24,7 @@ function Side({ activeMenuSection }) {
   }, [activeMenuSection, prevActiveMenuSection]);
 
   return (
-    <div className='side-component'>
+    <aside className='side-component'>
       <div className='personal-resume'>
         <img src={profilePicture} alt="Profile"/>
         <h1>Cristian Camilo Torres</h1>
@@ -47,7 +47,7 @@ function Side({ activeMenuSection }) {
           <GithubIcon />
         </a>
       </div>
-    </div>
+    </aside>
   );
 }
 
