@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import './Projects.css';
 import weatherImage from '../../../assets/images/projects-weather-api.png';
+import { ReactComponent as ArrowLeft } from '../../../assets/icons/icon-arrow-left.svg';
+import { ReactComponent as ArrowRight } from '../../../assets/icons/icon-arrow-right.svg';
 
 function Projects() {
 
@@ -31,7 +33,7 @@ function Projects() {
     return (
         <div className="projects-content section" id="projects">
             <div className="carousel">
-                <button id="prevButton" onClick={prevSlide}>P</button>
+                <button id="prevButton" onClick={prevSlide}><ArrowLeft/></button>
                 <div className="projects-item">
                     <h2>Weather API</h2>
                     <img src={weatherImage} alt='Weather API Project' />
@@ -59,7 +61,7 @@ function Projects() {
                         <a href='https:google.com' target='_blank' rel='noreferrer noopener'>3</a>
                     </div>
                 </div>
-                <button id="nextButton" onClick={nextSlide}>N</button>
+                <button id="nextButton" onClick={nextSlide}><ArrowRight/></button>
             </div>
             <div className='contact-content'>
                 <h4>Don't forget. We're just a message away.</h4>

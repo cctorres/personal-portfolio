@@ -4,7 +4,7 @@
   --contrast-color: rgb(150, 130, 0);
   --acent-color: rgb(234, 218, 94);
   --bg-color-menu: rgba(255, 255, 255, 0.5);
-  --bg-color-menu-contrast: rgba(0, 0, 0, 0.3);
+  --bg-color-menu-contrast: #ddd;
 }
 
 .dark-theme {

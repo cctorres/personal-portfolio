@@ -7,7 +7,7 @@
     padding: 20px 5px;
 }
 
-.section a {
+.section a, .section button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,6 +20,7 @@
     font-weight: 600;
     border-radius: 20px;
     padding: 5px;
+    background-color: transparent;
 }
 
 .section a svg {
@@ -34,7 +35,7 @@
     margin-left: 5px;
 }
 
-.section a:hover {
+.section a:hover, .section button:hover {
     font-weight: 700;
     background-color: var(--acent-color);
     transition: ease-in 0.2s;
