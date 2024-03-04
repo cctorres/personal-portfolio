@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import About from './sections/About';
-import Experience from './sections/Experience';
-import Projects from './sections/Projects';
+import About from '../../sections/About/About';
+import Experience from '../../sections/Experience/Experience';
+import Projects from '../../sections/Projects/Projects';
 import './Main.css';
 
 function Main({ setActiveMenuSection }) {

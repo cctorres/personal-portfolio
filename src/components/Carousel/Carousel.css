@@ -1,10 +1,3 @@
-.projects-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .projects-content .carousel {
     display: flex;
     flex-direction: row;
@@ -22,19 +15,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    left: 0;
-    top: 0;
+    justify-content: space-evenly;
     animation: show-up 0.5s ease-in;
     border: rgba(222, 222, 222, 0.5) 2px solid;
     row-gap: 10px;
     padding: 10px 5px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgba(222, 222, 222, 0.3);
-    height: 90%;
-    margin: 0 10px;
+    margin: 10px;
+}
 
+.projects-content .carousel .active > div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .projects-content .carousel .projects-item .projects-item-buttons {
@@ -46,12 +42,12 @@
 }
 
 .projects-content .carousel .projects-item img {
-    width: 350px;
+    width: 300px;
     border-radius: 20px;
 }
 
 .projects-content .carousel .projects-item p {
-    width: 340px;
+    width: 300px;
     margin: 0;
     text-align: justify;
 }
@@ -72,16 +68,6 @@
     height: 15px;
     fill: var(--text-color);
     stroke: var(--text-color);
-}
-
-.contact-content {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.contact-content .contact-buttons {
-    display: flex;
-    column-gap: 10px;
 }
 
 @keyframes show-up {
