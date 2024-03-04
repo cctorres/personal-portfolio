@@ -1,6 +1,6 @@
 import './Experience.css';
-import ExperienceItem from '../../components/Experience/Experience';
-import TechnologyList from '../../components/Technologies/Technologies';
+import ExperienceItem from 'components/Experience/Experience';
+import TechnologyList from 'components/Technologies/Technologies';
 
 function Experience() {
     

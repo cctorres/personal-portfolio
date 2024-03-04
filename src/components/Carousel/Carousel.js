@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { ReactComponent as ArrowLeft } from '../../assets/icons/icon-arrow-left.svg';
-import { ReactComponent as ArrowRight } from '../../assets/icons/icon-arrow-right.svg';
+import { ReactComponent as ArrowLeft } from 'assets/icons/icon-arrow-left.svg';
+import { ReactComponent as ArrowRight } from 'assets/icons/icon-arrow-right.svg';
 import './Carousel.css';
 
 function Carousel({ children }) {

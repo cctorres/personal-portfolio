@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Side.css';
-import { ReactComponent as LinkedinIcon } from '../../assets/icons/icon-linkedin.svg';
-import { ReactComponent as GithubIcon } from '../../assets/icons/icon-github.svg';
-import profilePicture from '../../assets/images/img-profile.png';
+import { ReactComponent as LinkedinIcon } from 'assets/icons/icon-linkedin.svg';
+import { ReactComponent as GithubIcon } from 'assets/icons/icon-github.svg';
+import profilePicture from 'assets/images/img-profile.png';
 
 function Side({ activeMenuSection }) {
   const [prevActiveMenuSection, setPrevActiveMenuSection] = useState(null);

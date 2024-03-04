@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import Header from './components/Header/Header';
-import Side from './components/Side/Side';
-import Main from './components/Main/Main';
+import Header from 'components/Header/Header';
+import Side from 'components/Side/Side';
+import Main from 'components/Main/Main';
 
 function App() {
   const [isDarkTheme, setDarkTheme] = useState(false);

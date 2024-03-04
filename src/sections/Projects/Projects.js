@@ -1,7 +1,7 @@
 import React from 'react';
 import './Projects.css';
-import Carousel from '../../components/Carousel/Carousel';
-import weatherImage from '../../assets/images/projects-weather-api.png';
+import Carousel from 'components/Carousel/Carousel';
+import weatherImage from 'assets/images/projects-weather-api.png';
 
 function Projects() {
 
