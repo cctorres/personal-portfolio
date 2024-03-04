@@ -1,3 +1,5 @@
+import './Technologies.css';
+
 function TechnologyList({ title, technologies }) {
     return (
         <div className='technologies'>

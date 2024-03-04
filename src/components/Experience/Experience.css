@@ -1,0 +1,24 @@
+.exprience-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    row-gap: 20px;
+}
+
+.experience-item {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.experience-description {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-left: 5px solid var(--acent-color);
+    padding: 0 10px;
+}
+
+.experience-content a {
+    margin: 0 auto;
+}

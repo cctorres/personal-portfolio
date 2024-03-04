@@ -1,3 +1,5 @@
+import './Experience.css';
+
 function ExperienceItem({ date, company, description }) {
     return (
         <div className="experience-item">
