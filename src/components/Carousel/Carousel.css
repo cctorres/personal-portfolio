@@ -9,20 +9,20 @@
 
 .projects-content .carousel .projects-item {
     display: none;
-}
-
-.projects-content .carousel .active {
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    animation: show-up 0.5s ease-in;
     border: rgba(222, 222, 222, 0.5) 2px solid;
     row-gap: 10px;
     padding: 10px 5px;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 5px rgba(222, 222, 222, 0.3);
     margin: 10px;
+}
+
+.projects-content .carousel .active {
+    display: flex;
+    animation: show-up 0.5s ease-in;
 }
 
 .projects-content .carousel .active > div {
@@ -77,5 +77,21 @@
 
     100% {
         opacity: 1;
+    }
+}
+
+@media (max-width:768px) {
+
+    .projects-content .carousel {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .projects-content .carousel button {
+        display: none;
+    }
+
+    .projects-content .carousel .projects-item {
+        display: flex;
     }
 }

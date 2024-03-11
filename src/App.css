@@ -38,3 +38,14 @@ h1, h2, h3, p {
   display: grid;
   grid-template-columns: 40% 60%;
 }
+
+@media (max-width: 768px) {
+  .page-wrapper {
+    height: 100%;
+  }
+
+  .main-content {
+    height: 100%;
+    max-width: 100%;
+  }
+}

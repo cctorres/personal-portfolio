@@ -7,6 +7,7 @@ function Projects() {
 
     return (
         <div className="projects-content section" id="projects">
+            <h1 className='mobile-title'>Projects</h1>
             <Carousel>
                 <div>
                     <h2>Weather API</h2>

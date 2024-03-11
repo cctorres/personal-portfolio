@@ -42,6 +42,7 @@ function Experience() {
 
     return (
         <div className="experience-content section" id="experience">
+            <h1 className='mobile-title'>Experience</h1>
             <div className='exprience-items'>
                 {experienceData.map((experience, index) => (
                     <ExperienceItem
