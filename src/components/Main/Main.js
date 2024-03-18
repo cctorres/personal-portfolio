@@ -6,17 +6,20 @@ import './Main.css';
 
 function Main({ setActiveMenuSection }) {
 
-    function selectActiveSection(numero, numCuartos) {
+    function selectActiveSection(progress, childrenNumber) {
         
-        var longitudCuarto = 1 / numCuartos;
-        var iterator = longitudCuarto;
+        var sectionRange = 1 / childrenNumber;
+        var iterator = sectionRange;
         var counter = 1;
+        if (progress > sectionRange*childrenNumber) {
+            return childrenNumber;
+        }
         while (iterator <= 1 ) {
-            if(numero <= iterator) {
+            if(progress <= iterator) {
                 return counter
             }
             counter = counter+1;
-            iterator = iterator+longitudCuarto;
+            iterator = iterator+sectionRange;
         }
     }
 
